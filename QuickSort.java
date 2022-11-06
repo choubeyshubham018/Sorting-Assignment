@@ -12,7 +12,7 @@ public class QuickSort {
 		if(strt<end) {
 		int div=sorting(arr,strt,end);// Calling the sorting method for array between index strt to end. 
 		sortRec(arr,strt,div-1); //Calling the same method for left half of the Array Recursively.
-		sortRec(arr,div+1,end);  //Calling the same method for left half of the Array Recursively.
+		sortRec(arr,div+1,end);  //Calling the same method for right half of the Array Recursively.
 			}
 		}
 	
